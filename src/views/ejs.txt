@@ -1,0 +1,12 @@
+<% Controle de fluxo (if, for...) %> É javascript normal
+<%= O que será impresso na tela sem html escapando caracteres %>
+<%- O que será impresso na tela com html %>
+<%# Comentário %>
+<%- include('caminho/arquivo')%>
+
+Exemplo
+<% if (algumacoisa) {>%
+    <%= exibe algumacoisa %>
+    <% } else { >%
+   <%= exibe outra coisa %>
+<% } %>
